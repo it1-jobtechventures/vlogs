@@ -7,7 +7,7 @@ import { FaWhatsapp } from "react-icons/fa6";
 const Header = () => {
   return (
     <>
-        <header className='flex justify-center items-center h-screen w-full'>
+        <header className='flex flex-col md:flex-row justify-center items-center h-screen md:h-full w-full'>
             <div className='w-[50%]  h-full m-3'>
                 <img src='https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='profile image' className='border border-solid p-2 rounded-md w-[80%]  h-[90%]'/>
             </div>
