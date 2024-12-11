@@ -4,6 +4,7 @@ import Blog from './components/Blog';
 import Header from './components/Header';
 import BlogDetail from './components/BlogDetail'; 
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogDetail />} />
       </Routes>
+      <Footer/>
     </div>
   );
 }
