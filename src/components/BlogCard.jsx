@@ -11,7 +11,7 @@ const BlogCard = ({ blog }) => {
                 <div className='flex justify-between pt-3 p-2'>
                     <div className='flex gap-3'>
                         <p>0 views</p>
-                        <p>0 views</p>
+                        <p>0 comments</p>
                     </div>
                     <div>
                         9 ❤
