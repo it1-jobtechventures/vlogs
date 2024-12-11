@@ -31,7 +31,7 @@ const BlogDetail = () => {
                 )
             }
             </div>
-            <div className='p-10  text-center space-y-10'>
+            <div className='md:p-10  md:text-center space-y-10'>
                 {blog.long_description}
             </div>
         </div>
