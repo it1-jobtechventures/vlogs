@@ -12,7 +12,7 @@ const BlogDetail = () => {
 
   return (
     <> 
-        <div className="p-8">
+        <div className="p-8 pt-16">
             <h2 className="text-4xl font-bold">{blog.title}</h2>
             <p className="text-sm text-gray-500 mt-2">{blog.date_published}</p>
             <h3 className="text-2xl font-semibold mt-4">{blog.headline}</h3>

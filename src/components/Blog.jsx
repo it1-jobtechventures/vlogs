@@ -12,7 +12,7 @@ const Blog = () => {
 
   return (
     <>
-        <h1 className='text-center font-bold text-4xl mb-3 mt-5'>BLOGS</h1>
+        <h1 className='text-center font-bold text-4xl mb-3 pt-16 z-0'>BLOGS</h1>
         <div className='flex justify-center items-center'> 
             <div className="grid grid-cols-1  md:grid-cols-2 gap-8 p-4">
                 {
